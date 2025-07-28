@@ -136,3 +136,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: -8477730742839148760}
+  childs:
+  - {fileID: 2076416506806802268}
+  - {fileID: 2076416506806802266}
+  - {fileID: 2076416506806802260}
+  - {fileID: 2076416506806802270}
+--- !u!23 &2076416506806802260 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300008, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2076416506804637500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2076416506806802266 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300006, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2076416506804637500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2076416506806802268 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2076416506804637500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2076416506806802270 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300002, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2076416506804637500}
+  m_PrefabAsset: {fileID: 0}

@@ -8,11 +8,14 @@ public class TankView : MonoBehaviour
     private float movement;
     private float rotation;
     public Rigidbody rb;
+    public MeshRenderer[] childs;
 
     void Start() {
         GameObject cam = GameObject.Find("Main Camera");
         cam.transform.SetParent(transform);
         cam.transform.position = new Vector3(0, 3f, -5f);
+        Vector3 rotate = new Vector3(15f, 0, 0);
+        cam.transform.rotation = Quaternion.Euler(rotate);
     }
 
     void Update()
@@ -44,5 +47,13 @@ public class TankView : MonoBehaviour
     {
         movement = Input.GetAxis("Vertical");
         rotation = Input.GetAxis("Horizontal");
+    }
+
+    public void ChangeColor(Material color)
+    {
+        for (int i = 0; i < childs.Length; i++)
+        {
+            childs[i].material = color;
+        }
     }
 }
